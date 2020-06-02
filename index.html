@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap" rel="stylesheet">
+    <link href="/css/all.min.css" rel="stylesheet">
 
     <title>Cui'zine</title>
 </head>
@@ -45,30 +46,79 @@
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-4">
-                <h3>Derniers articles</h3>
+                <h4>Derniers articles</h4>
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="row mx-0 my-2 justify-content-start">
-            <div class="col-lg-9 col-md-9 col-sm">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <img src="../cui'zine/img/articles/suzette/suzette-header.jpg" class="img-fluid" alt="le plat de suzette">
+    <section class="container-lg">
+        <div class="row">
+            <div class="col-lg-9 align-items-left">
+                <div class="row align-items-center articles">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="Photo de Suzette"/>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <h3 id="titre">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier 
+                            restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé 
+                            pour vous les saveurs sucrés, salés au froment ou au sarrazin!</p>
+                    </div>
+                </div><!-- .row-->
+                <div class="row align-items-center articles">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="img/articles/metro/metro-header.jpg" class="img-fluid" alt="Photo de Suzette"/>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <h3 id="titre">Le metro dessert</h3>
+                        <p>Germain est ferrovipathe (ndlr: fan de train), 
+                            son fils Maxime est patissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du metro parisien. 
+                            A voir absolument, mais qu'en est-il d'y allez pour manger ?Clémentine entre en gare et nous donne son avis.</p>
+                    </div>
+                </div><!-- .row-->
+                <div class="row align-items-center articles">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="img/articles/vitaly/vitaly-header.jpg" class="img-fluid" alt="Photo de Suzette"/>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <h3 id="titre">Vitaly, le vegan italien</h3>
+                        <p>Quand on pense italien, on pense lasagne et jambon de parme.
+                            ils l'ont fait, les saveurs de l'italie à portée des herbivores.
+                            Cette fois, c'est moi Tony qui vait le tester pour vous.
+                        </p>
+                    </div>
+                </div><!-- .row-->
+                
+                    <div class="col-sm col-lg-3">
+        
+                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-12">
-                    <h4>Chez Suzette, la nouvelle creperie qui fait  parler d'elle</h4>
-                    
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, optio, nisi quas atque quasi tempora ullam, harum iusto expedita vitae quam totam voluptates itaque nulla consequatur? Omnis corporis ullam ratione!
-                    </p>
+                <div class="col-lg-3 col d-none d-lg-block">
+                    <form>
+                        <div class="form-group">
+                            <label for="input-search">Recherche</label>
+                            <input type="text" class="form-control" id="input-search" placeholder="Recherche...">
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark btn-block">Ok</button>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <label for="input-search">Newsletter</label>
+                            <input type="text" class="form-control" id="input-search" placeholder="Email...">
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark btn-block">S'inscrire</button>
+                    </form>
+                    <h5>Partager</h5>
                 </div>
             </div>
-            <div class="col-sm col-lg-3">
 
-            </div>
         </div>
     </section>
+    <footer class="container">
+        <div class="row">
+            <h3>Catégories</h3>
+        </div>
+
+    </footer>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
