@@ -1,15 +1,35 @@
-h1, h2 {
+h1, h2, h5 {
     font-family: 'Courgette';
 }
 
 h3 {
+    font-family: 'Courgette';
     text-align: center;
-    margin: 20px;
 }
+
+h4 {
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+h5 {
+    
+    margin-top: 15px;
+}
+
 
 img {
 	max-width: 60px;
 	height: auto;
+}
+
+p {
+    font-family: 'Oswald';
+    text-align: left;
+}
+
+#titre {
+    text-align: left;
 }
 
 #banner {
@@ -40,5 +60,19 @@ header {
     color: #fff;
 }
 
+
+.row {
+    margin-top: 15px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
 
 
