@@ -3,124 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/homepage.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap" rel="stylesheet">
-    <link href="/css/all.min.css" rel="stylesheet">
-
-    <title>Cui'zine</title>
+    <title>cui'zine - Le mag cuisine</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" href="#">Cui'zine</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand title" href="#">Cui'zine</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Accueil <span class="sr-only">(page-actuelle)</span></a>
+                <a class="nav-item nav-link" href="#">Equipe</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+              </div>
             </div>
-        </nav>
-        <hr>
-        <div class="col text-white text-center" id="banner">
-            <img src="../cui'zine/img/logo_square_white.png" alt="logo_square_white">
+          </nav><!--navbar-->
+          <div class="header-content">
+            <img src="./img/logo_square_white.png" alt="logo cui'zine">
             <h1>Cui'zine</h1>
-            <h2>Le mag cuisine</h2>
-        </div>  
-    </header>
-    <section class="container">
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <h4>Derniers articles</h4>
+            <h2>Le mag cui'zine</h2>
+          </div>
+          <div class="header-filter"></div>
+    </header><!--header-->
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Derniers articles</h3>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="container-lg">
-        <div class="row">
-            <div class="col-lg-9 align-items-left">
-                <div class="row align-items-center articles">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <img src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="Photo de Suzette"/>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12">
-                        <h3 id="titre">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier 
-                            restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé 
-                            pour vous les saveurs sucrés, salés au froment ou au sarrazin!</p>
-                    </div>
-                </div><!-- .row-->
-                <div class="row align-items-center articles">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <img src="img/articles/metro/metro-header.jpg" class="img-fluid" alt="Photo de Suzette"/>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12">
-                        <h3 id="titre">Le metro dessert</h3>
-                        <p>Germain est ferrovipathe (ndlr: fan de train), 
-                            son fils Maxime est patissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du metro parisien. 
-                            A voir absolument, mais qu'en est-il d'y allez pour manger ?Clémentine entre en gare et nous donne son avis.</p>
-                    </div>
-                </div><!-- .row-->
-                <div class="row align-items-center articles">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <img src="img/articles/vitaly/vitaly-header.jpg" class="img-fluid" alt="Photo de Suzette"/>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12">
-                        <h3 id="titre">Vitaly, le vegan italien</h3>
-                        <p>Quand on pense italien, on pense lasagne et jambon de parme.
-                            ils l'ont fait, les saveurs de l'italie à portée des herbivores.
-                            Cette fois, c'est moi Tony qui vait le tester pour vous.
-                        </p>
-                    </div>
-                </div><!-- .row-->
-                
-                    <div class="col-sm col-lg-3">
-        
+            <div class="row">
+                <div class="col-12 col-lg-8 content">
+                    <div class="row article">
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="./img/articles/suzette/suzette-small.jpg" alt="image-suzette">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h2>Chez Suzette, la nouvelle creperie qui fait parler d'elle</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti modi quasi quo cumque maiores aut. Mollitia, adipisci qui dicta quis eius cum. Quaerat accusantium rerum facere? Blanditiis facilis fugiat fuga!</p>
+                        </div>
+                    </div><!--.article-->
+                    <div class="row article">
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="./img/articles/metro/metro-small.jpg" alt="image-metro">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h2>Le metro dessert</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti modi quasi quo cumque maiores aut. Mollitia, adipisci qui dicta quis eius cum. Quaerat accusantium rerum facere? Blanditiis facilis fugiat fuga!</p>
+                        </div>
+                    </div><!--.article-->
+                    <div class="row article">
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="./img/articles/vitaly/vitaly-small.jpg" alt="image-vitaly">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h2>Vitaly, le vegan italien</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti modi quasi quo cumque maiores aut. Mollitia, adipisci qui dicta quis eius cum. Quaerat accusantium rerum facere? Blanditiis facilis fugiat fuga!</p>
+                        </div>
+                    </div><!--.article-->
+                </div>
+                <div class="col-4 d-none d-lg-block aside">
+                    <div class="row social-media">
+                        <div class="col-12 search">
+                            <h5>Rechercher</h5>
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label class="sr-only" for="search">Recherche</label>
+                                    <input id="search" type="text" class="form-control" placeholder="Recherche...">
+                                </div>
+                                <button class="btn btn-primary">OK</button>
+                            </form>
+                        </div><!--search-->
+                        <div class="col-12 newsletter">
+                            <h5>Newsletter</h5>
+                            <form class="form-inline" action="">
+                                <div class="form-group">
+                                    <label class="sr-only" for="">Email</label>
+                                    <input id="newsletter-email" type="email" class="form-control" placeholder="Email...">
+                                </div>
+                                <button class="btn btn-primary">S'inscrire</button>
+                            </form>
+                        </div><!--newsletter-->
+                        <div class="col-12 Share">
+                            <h5>Partager</h5>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col d-none d-lg-block">
-                    <form>
+            </div>
+            </div>
+        </div><!--main-->
+        <div class="row previous-page">
+            <div class="col-12">
+                <a href="#">&laquo; Page précèdente</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row category">
+                <div class="col-12">
+                    <h4>Catégories</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Revues</a>
+                        </li>
+                        <li>
+                            <a href="#">Recettes</a>
+                        </li>
+                        <li>
+                            <a href="#">Découvertes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row archives">
+                <div class="col-12">
+                    <h4>Archives</h4>
+                    <ul>
+                        <li>
+                            <a href="#">2020</a>
+                        </li>
+                        <li>
+                            <a href="#">2019</a>
+                        </li>
+                        <li>
+                            <a href="#">2018</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row social-media">
+                <div class="col-12 newsletter">
+                    <h5>Newsletter</h5>
+                    <form class="form-inline" action="">
                         <div class="form-group">
-                            <label for="input-search">Recherche</label>
-                            <input type="text" class="form-control" id="input-search" placeholder="Recherche...">
+                            <label class="sr-only" for="">Email</label>
+                            <input id="newsletter-email" type="email" class="form-control" placeholder="Email...">
                         </div>
-                        <button type="submit" class="btn btn-outline-dark btn-block">Ok</button>
+                        <button class="btn btn-primary">S'inscrire</button>
                     </form>
-                    <form>
-                        <div class="form-group">
-                            <label for="input-search">Newsletter</label>
-                            <input type="text" class="form-control" id="input-search" placeholder="Email...">
-                        </div>
-                        <button type="submit" class="btn btn-outline-dark btn-block">S'inscrire</button>
-                    </form>
+                </div>
+                <div class="col-12 Share">
                     <h5>Partager</h5>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
         </div>
-    </section>
-    <footer class="container">
-        <div class="row">
-            <h3>Catégories</h3>
-        </div>
-
     </footer>
-    
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </html>
