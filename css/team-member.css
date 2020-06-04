@@ -1,0 +1,13 @@
+.team-article img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+body {
+    font-family: Oswald, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
+
+header {
+    background: url(../img/team/team.jpg) center center;
+}
