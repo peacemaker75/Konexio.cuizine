@@ -1,8 +1,8 @@
 
 
 .team-article img {
-    max-height: auto;
-    max-width: 250px;
+    height: auto;
+    max-width: 100%;
     border-radius: 50%;
     margin-bottom: 0;
 }
