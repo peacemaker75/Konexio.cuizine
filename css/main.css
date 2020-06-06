@@ -51,6 +51,11 @@ header .col-12 {
   padding-top: 130px;
 }
 
+article:hover .logo {
+  opacity: 1;
+  transition: 0.5s;
+}
+
 aside h6 {
   margin-top: 15px;
 }
@@ -168,10 +173,7 @@ footer div div {
   width: 100%;
   transition: opacity 0.5s;
 }
-article:hover .logo {
-  opacity: 1;
-  transition: 0.5s;
-}
+
 
 @media (max-width: 552px) {
   footer form.form-inline button {
